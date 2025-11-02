@@ -55,7 +55,7 @@ class MyInfoPage {
         cy.get('.oxd-toast-close').click()
         cy.get(this.selectorsList().submitButton).eq(1).click()
         cy.get("body").should("contain", "Successfully Saved")
-        cy.get('.oxd-toast-close').click()
+       
     }
 
 
